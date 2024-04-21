@@ -65,7 +65,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Kevin Kaslana",
+    name: "Kevin Kaslana (Current Era)",
     img: "kevin.jpg",
     opts: {
       type: ["Serpent"],
@@ -120,7 +120,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Hua",
+    name: "Hua (Previous Era)",
     img: "hua.jpg",
     opts: {
       type: ["MOTH"],
@@ -154,7 +154,15 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sakura",
+    name: "Griseo (Grown up)",
+    img: "griseoup.jpg",
+    opts: {
+      type: ["Other"],
+      dupes: true
+    }
+  },
+  {
+    name: "Sakura (Previous Era)",
     img: "sakura.png",
     opts: {
       type: ["MOTH"]
@@ -204,7 +212,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Theresa in St. Freya",
     img: "theresafreya.png",
     opts: {
-      type: ["Freya"]
+      type: ["Freya"],
+      dupes: true
     }
   },
   {
@@ -316,7 +325,7 @@ dataSet[dataSetVersion].characterData = [
 
   //Anti-Entropy
   {
-    name: "Welt Yang",
+    name: "Welt Yang APHO",
     img: "welt.jpg",
     opts: {
       type: ["APHO"],
@@ -330,7 +339,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       type: ["AE"],
       male: true,
-      nonplayable: true
+      nonplayable: true,
+      dupes: true
     }
   },
   {
@@ -367,7 +377,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Seele Vollerei",
+    name: "Seele Vollerei (before Part 1.5)",
     img: "seele.jpg",
     opts: {
       type: ["AE"],
@@ -507,7 +517,7 @@ dataSet[dataSetVersion].characterData = [
  
   //Other
   {
-    name: "Yae Sakura",
+    name: "Yae Sakura (Current Era)",
     img: "yaesakura.jpg",
     opts: {
       type: ["Other"]
