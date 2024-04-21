@@ -59,7 +59,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kevin Kaslana (Previous Era)",
     img: "kevin.jpg",
     opts: {
-      type: ["MOTH"]
+      type: ["MOTH"],
       nonplayable: true,
       male: true
     }
@@ -68,7 +68,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kevin Kaslana",
     img: "kevin.jpg",
     opts: {
-      type: ["World Serpent"]
+      type: ["World Serpent"],
       nonplayable: true,
       male: true
     }
