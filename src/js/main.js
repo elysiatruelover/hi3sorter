@@ -282,7 +282,7 @@ function display() {
   const rightChar       = characterDataToSort[rightCharIndex];
 
   const charNameDisp = name => {
-    const charName = reduceTextWidth(name, 'Arial 12.8px', 220);
+    const charName = reduceTextWidth(name, 'Arial 12.8px', 260);
     const charTooltip = name !== charName ? name : '';
     return `<p title="${charTooltip}">${charName}</p>`;
   };
