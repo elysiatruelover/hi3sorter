@@ -233,7 +233,7 @@ label:hover {
   height: 19px;
   margin-bottom: -1px;
   display: grid;
-  width: 196px;
+  width: 400px;
   grid-template-columns: repeat(2, 1fr);
   background-color: white;
   border: 1px solid #80C1E3;
@@ -279,7 +279,7 @@ label:hover {
 }
 
 .result > .right {
-  width: 160px;
+  width: 360px;
   padding: 3px 0em 0px 0em;
   grid-column: 2 / 3;
   border-left: 1px solid #80C1E3;
