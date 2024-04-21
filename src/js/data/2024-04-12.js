@@ -68,7 +68,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kevin Kaslana",
     img: "kevin.jpg",
     opts: {
-      type: ["World Serpent"],
+      type: ["Serpent"],
       nonplayable: true,
       male: true
     }
