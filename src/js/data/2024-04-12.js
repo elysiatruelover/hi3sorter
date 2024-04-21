@@ -47,7 +47,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Elysia Miss Pink Elf♪",
     img: "mpe.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["Honkai"],
       type: ["MOTH"],
       dupes: true
@@ -57,7 +57,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Elysia Herrscher of Human: Ego",
     img: "hohe.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["Honkai"],
       type: ["MOTH"]
     }
@@ -66,7 +66,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kevin Kaslana",
     img: "kevin.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["World Serpent"],
       type: ["MOTH"],
       nonplayable: true,
@@ -77,7 +77,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Aponia",
     img: "aponia.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -85,7 +85,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kalpas",
     img: "kalpas.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -95,7 +95,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dr. Mobius",
     img: "drmobius.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true,
       nonplayable: true
@@ -105,7 +105,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Mobius",
     img: "mobius.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -113,7 +113,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Pardofelis",
     img: "pardo.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -121,7 +121,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Eden",
     img: "eden.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -129,7 +129,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hua",
     img: "hua.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true
     }
@@ -138,7 +138,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Su",
     img: "su.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -148,7 +148,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kosma",
     img: "kosma.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -158,7 +158,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Griseo",
     img: "griseo.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true
     }
@@ -167,7 +167,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Sakura",
     img: "sakura.png",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -175,7 +175,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Vill-V",
     img: "villv.jpg",
     opts: {
-      type: ["FlameChaser"],
+      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
