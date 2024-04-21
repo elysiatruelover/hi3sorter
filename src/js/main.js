@@ -481,6 +481,7 @@ function result(imageNum = 5) {
   const header = '<div class="result head"><div class="left">#</div><div class="right">Name</div></div>';
   const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <br><br> <a class="restart-button" href="${location.protocol}//${sorterURL}">Do another sorter</a>`;
   const imgRes = (char, num) => {
+    const charName = reduceTextWidth(char.name, 'Arial 12px', 300);
     const charTooltip = char.name !== charName ? char.name : '';
     return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><img src="${char.img}"><div><span title="${charTooltip}">${charName}</span></div></div></div>`;
   }
