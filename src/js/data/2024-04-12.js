@@ -185,7 +185,7 @@ dataSet[dataSetVersion].characterData = [
     img: "whitecomet.jpg",
     opts: {
       type: ["Freya"],
-      dupe: true
+      dupes: true
     }
   },
   {
@@ -193,7 +193,7 @@ dataSet[dataSetVersion].characterData = [
     img: "meifreya.jpg",
     opts: {
       type: ["Freya"],
-      dupe: true
+      dupes: true
     }
   },
   {
@@ -201,7 +201,7 @@ dataSet[dataSetVersion].characterData = [
     img: "bronyafreya.jpg",
     opts: {
       type: ["Freya"],
-      dupe: true
+      dupes: true
     }
   },
   {
@@ -209,7 +209,7 @@ dataSet[dataSetVersion].characterData = [
     img: "valkyrieaccipiter.jpg",
     opts: {
       type: ["Freya"],
-      dupe: true
+      dupes: true
     }
   },
   {
