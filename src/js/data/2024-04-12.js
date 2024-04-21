@@ -8,17 +8,14 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict characters from certain group.",
     checked: false,
     sub: [
-      { name: "Flame Chasers", key: "FlameChasers" },
-      { name: "St. Freya", key: "Freya" },
+      { name: "Herrschers", key: "Honkai" },
       { name: "Schicksal", key: "Schicksal" },
       { name: "Anti-Entropy", key: "AE" },
       { name: "World Serpent", key: "Serpent" },
       { name: "MOTH", key: "MOTH" },
-      { name: "Herrschers", key: "Honkai" },
-      { name: "Part 1.5", key: "Part1point5" },
-      { name: "Part 2", key: "Part2" },
+      { name: "St. Freya", key: "Freya" },
       { name: "APHO", key: "APHO" },
-      { name: "Other", key: "Other" },
+      { name: "Other", key: "Other" }
     ]
   },
   {
@@ -47,8 +44,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Elysia Miss Pink Elf♪",
     img: "mpe.jpg",
     opts: {
-      type: ["FlameChasers"],
-      type: ["Honkai"],
       type: ["MOTH"],
       dupes: true
     }
@@ -57,18 +52,23 @@ dataSet[dataSetVersion].characterData = [
     name: "Elysia Herrscher of Human: Ego",
     img: "hohe.jpg",
     opts: {
-      type: ["FlameChasers"],
-      type: ["Honkai"],
+      type: ["Honkai"]
+    }
+  },
+  {
+    name: "Kevin Kaslana (Previous Era)",
+    img: "kevin.jpg",
+    opts: {
       type: ["MOTH"]
+      nonplayable: true,
+      male: true
     }
   },
   {
     name: "Kevin Kaslana",
     img: "kevin.jpg",
     opts: {
-      type: ["FlameChasers"],
-      type: ["World Serpent"],
-      type: ["MOTH"],
+      type: ["World Serpent"]
       nonplayable: true,
       male: true
     }
@@ -77,7 +77,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Aponia",
     img: "aponia.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -85,7 +84,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Kalpas",
     img: "kalpas.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -95,7 +93,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Dr. Mobius",
     img: "drmobius.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true,
       nonplayable: true
@@ -105,7 +102,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Mobius",
     img: "mobius.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -113,7 +109,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Pardofelis",
     img: "pardo.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -121,7 +116,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Eden",
     img: "eden.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -129,7 +123,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Hua",
     img: "hua.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true
     }
@@ -138,7 +131,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Su",
     img: "su.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -148,7 +140,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Kosma",
     img: "kosma.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       nonplayable: true,
       male: true
@@ -158,7 +149,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Griseo",
     img: "griseo.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"],
       dupes: true
     }
@@ -167,7 +157,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Sakura",
     img: "sakura.png",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -175,7 +164,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Vill-V",
     img: "villv.jpg",
     opts: {
-      type: ["FlameChasers"],
       type: ["MOTH"]
     }
   },
@@ -213,11 +201,17 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Theresa in St. Freya",
+    img: "theresafreya.png",
+    opts: {
+      type: ["Freya"]
+    }
+  },
+  {
     name: "Theresa",
     img: "theresa.png",
     opts: {
-      type: ["Freya"],
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
@@ -232,7 +226,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Otto Apocalypse",
     img: "otto.jpg",
     opts: {
-      type: ["Schiskal"],
+      type: ["Schicksal"],
       nonplayable: true,
       male: true
     }
@@ -241,35 +235,34 @@ dataSet[dataSetVersion].characterData = [
     name: "Bianka Ataegina",
     img: "durandal.png",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Rita Rossweisse",
     img: "rita.jpg",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Cecilia Schariac",
     img: "cecilia.jpg",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Susannah Manatt",
     img: "susannah.jpg",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "APHO MC",
     img: "adam.jpg",
     opts: {
-      type: ["Schiksal"],
       type: ["APHO"],
       male: true
     }
@@ -278,7 +271,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Carole Pepper",
     img: "carole.jpg",
     opts: {
-      type: ["Schiksal"],
       type: ["APHO"]
     }
   },
@@ -286,7 +278,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Timido Cute",
     img: "timido.jpg",
     opts: {
-      type: ["Schiksal"],
       type: ["APHO"]
     }
   },
@@ -294,7 +285,6 @@ dataSet[dataSetVersion].characterData = [
     name: "Lyle Collodi",
     img: "lyle.jpg",
     opts: {
-      type: ["Schiksal"],
       type: ["APHO"],
       male: true,
       nonplayable: true
@@ -304,7 +294,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Siegfried Kaslana",
     img: "siegfried.jpg",
     opts: {
-      type: ["Schiksal"],
+      type: ["Schicksal"],
       male: true,
       nonplayable: true
     }
@@ -313,14 +303,14 @@ dataSet[dataSetVersion].characterData = [
     name: "Kallen Kaslana",
     img: "kallen.jpg",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Li Sushang",
     img: "sushang.jpg",
     opts: {
-      type: ["Schiksal"]
+      type: ["Schicksal"]
     }
   },
 
@@ -329,8 +319,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Welt Yang",
     img: "welt.jpg",
     opts: {
-      type: ["AE"],
       type: ["APHO"],
+      male: true,
+      nonplayable: true
+    }
+  },
+  {
+    name: "Welt Yang AE",
+    img: "weltae.jpg",
+    opts: {
+      type: ["AE"],
       male: true,
       nonplayable: true
     }
@@ -403,8 +401,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Misteln Schariac",
     img: "misteln.jpg",
     opts: {
-      type: ["Serpent"],
-      type: ["Part1point5"]
+      type: ["Serpent"]
     }
   },
   {
@@ -428,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
     name: "PROMETHEUS",
     img: "prometheus.jpg",
     opts: {
-      type: ["MOTH"]
+      type: ["Serpent"]
     }
   },
   //Herrschers
@@ -452,8 +449,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herrscher of Sentience",
     img: "senti.jpg",
     opts: {
-      type: ["Honkai"],
-      type: ["Part1point5"]
+      type: ["Honkai"]
     }
   },
   {
@@ -468,8 +464,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herrscher of Thunder",
     img: "thunder.jpg",
     opts: {
-      type: ["Honkai"],
-      type: ["Serpent"],
+      type: ["Serpent"]
       dupes: true
     }
   },
@@ -477,7 +472,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herrscher of Flamescion",
     img: "flame.jpg",
     opts: {
-      type: ["Honkai"],
+      type: ["Freya"],
       dupes: true
     }
   },
@@ -506,8 +501,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herrscher of Rebirth",
     img: "rebirth.jpg",
     opts: {
-      type: ["Honkai"],
-      type: ["Part1point5"]
+      type: ["Honkai"]
     }
   },
  
@@ -531,7 +525,6 @@ dataSet[dataSetVersion].characterData = [
     img: "vita.jpg",
     opts: {
       type: ["Other"],
-      type: ["Part1point5"],
       nonplayable: true
     }
   },
@@ -540,7 +533,6 @@ dataSet[dataSetVersion].characterData = [
     img: "sa.jpg",
     opts: {
       type: ["Other"],
-      type: ["Part1point5"],
       nonplayable: true
     }
   },
@@ -556,16 +548,14 @@ dataSet[dataSetVersion].characterData = [
     name: "Fu Hua",
     img: "fuhua.jpg",
     opts: {
-      type: ["Other"],
-      type: ["Part1point5"]
+      type: ["Other"]
     }
   },
   {
     name: "Kira Shigure",
     img: "kira.jpg",
     opts: {
-      type: ["Other"],
-      type: ["Part1point5"]
+      type: ["Other"]
     }
   },
   {
@@ -582,63 +572,63 @@ dataSet[dataSetVersion].characterData = [
     name: "Senadina",
     img: "senadina.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Erdős Helia",
     img: "helia.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Coralie 6626 Planck",
     img: "coralie.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Schicksal"]
     }
   },
   {
     name: "Songque",
     img: "songque.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Thelema Nutriscu",
     img: "thelema.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Chenxue",
     img: "chenxue.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Part 2 Main Character (male)",
     img: "p2malemc.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Part 2 Main Character (female)",
     img: "p2femalemc.jpg",
     opts: {
-      type: ["Part2"]
+      type: ["Other"]
     }
   },
   {
     name: "Litost",
     img: "litost.jpg",
     opts: {
-      type: ["Part2"],
+      type: ["Other"],
       male: true,
       nonplayable: true
     }
