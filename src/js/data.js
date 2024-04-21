@@ -20,4 +20,4 @@ let dataSetVersion = '';
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://vercel.com/elysiatruelovers-projects/hi3sorter/chara/';
+const imageRoot = 'https://hi3sorter.vercel.app/chara/';
