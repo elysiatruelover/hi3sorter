@@ -464,7 +464,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Herrscher of Thunder",
     img: "thunder.jpg",
     opts: {
-      type: ["Serpent"]
+      type: ["Serpent"],
       dupes: true
     }
   },
