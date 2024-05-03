@@ -643,6 +643,29 @@ dataSet[dataSetVersion].characterData = [
       nonplayable: true
     }
   },
+  {
+    name: "Lantern",
+    img: "lantern.jpg",
+    opts: {
+      type: ["Other"]
+    }
+  },
+  {
+    name: "Baiji",
+    img: "baiji.jpg",
+    opts: {
+      type: ["Other"],
+      male: true,
+      nonplayable: true
+    }
+  },
+  {
+    name: "Serapeum",
+    img: "serapeum.jpg",
+    opts: {
+      type: ["Other"]
+    }
+  },
 
   //APHO
   {
